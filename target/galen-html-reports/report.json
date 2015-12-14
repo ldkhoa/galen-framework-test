@@ -1,0 +1,59 @@
+{
+  "tests" : [ {
+    "name" : "galen.galen_framework_test.LoginPageLayoutTest#checkInvalidLayoutInDesktopMode",
+    "startedAt" : 1450090543097,
+    "endedAt" : 1450090543097,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 10,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 11
+    },
+    "testId" : "1-galen.galen-framework-test.loginpagelayouttest-checkinvalidlayoutindesktopmode",
+    "failed" : true,
+    "duration" : 0
+  }, {
+    "name" : "galen.galen_framework_test.LoginPageLayoutTest#checkInvalidLayoutInMobileMode",
+    "startedAt" : 1450090550668,
+    "endedAt" : 1450090550668,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 9,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 10
+    },
+    "testId" : "2-galen.galen-framework-test.loginpagelayouttest-checkinvalidlayoutinmobilemode",
+    "failed" : true,
+    "duration" : 0
+  }, {
+    "name" : "galen.galen_framework_test.LoginPageLayoutTest#checkValidLayoutInDesktopMode",
+    "startedAt" : 1450090553753,
+    "endedAt" : 1450090553753,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 11,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 11
+    },
+    "testId" : "3-galen.galen-framework-test.loginpagelayouttest-checkvalidlayoutindesktopmode",
+    "failed" : false,
+    "duration" : 0
+  }, {
+    "name" : "galen.galen_framework_test.LoginPageLayoutTest#checkValidLayoutInMobileMode",
+    "startedAt" : 1450090556567,
+    "endedAt" : 1450090556567,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 10,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 10
+    },
+    "testId" : "4-galen.galen-framework-test.loginpagelayouttest-checkvalidlayoutinmobilemode",
+    "failed" : false,
+    "duration" : 0
+  } ]
+}

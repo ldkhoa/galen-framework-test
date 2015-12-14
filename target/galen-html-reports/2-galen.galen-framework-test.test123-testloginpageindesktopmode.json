@@ -1,0 +1,125 @@
+{
+  "testId" : "2-galen.galen-framework-test.test123-testloginpageindesktopmode",
+  "name" : "galen.galen_framework_test.test123#testLoginPageInDesktopMode",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout /specs/loginPageGDC.spec",
+      "status" : "info",
+      "time" : 1450087128951,
+      "includedTags" : [ "mobile" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Login page",
+        "objects" : [ {
+          "name" : "username-textfield",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/loginPageGDC.spec",
+              "lineNumber" : 14
+            },
+            "name" : "height 33px",
+            "highlight" : [ "username-textfield" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/loginPageGDC.spec",
+              "lineNumber" : 20
+            },
+            "name" : "aligned vertically all password-textfield",
+            "highlight" : [ "username-textfield", "password-textfield" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/loginPageGDC.spec",
+              "lineNumber" : 45
+            },
+            "name" : "aligned vertically left gooddata-logo",
+            "highlight" : [ "username-textfield", "gooddata-logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/loginPageGDC.spec",
+              "lineNumber" : 46
+            },
+            "name" : "below gooddata-logo 120 to 131px",
+            "highlight" : [ "username-textfield", "gooddata-logo" ]
+          } ]
+        }, {
+          "name" : "password-textfield",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/loginPageGDC.spec",
+              "lineNumber" : 14
+            },
+            "name" : "height 33px",
+            "highlight" : [ "password-textfield" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/loginPageGDC.spec",
+              "lineNumber" : 23
+            },
+            "name" : "aligned vertically left signIn-button",
+            "highlight" : [ "password-textfield", "signIn-button" ]
+          } ]
+        }, {
+          "name" : "signIn-button",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/loginPageGDC.spec",
+              "lineNumber" : 17
+            },
+            "name" : "height 38px",
+            "highlight" : [ "signIn-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/loginPageGDC.spec",
+              "lineNumber" : 26
+            },
+            "name" : "text is \"Sign in\"",
+            "highlight" : [ "signIn-button" ]
+          } ]
+        }, {
+          "name" : "gooddata-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/loginPageGDC.spec",
+              "lineNumber" : 41
+            },
+            "name" : "height 70px",
+            "highlight" : [ "gooddata-logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/loginPageGDC.spec",
+              "lineNumber" : 42
+            },
+            "name" : "width 69px",
+            "highlight" : [ "gooddata-logo" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "password-textfield" : {
+          "area" : [ 31, 305, 374, 33 ]
+        },
+        "signIn-button" : {
+          "area" : [ 31, 392, 374, 38 ]
+        },
+        "gooddata-logo" : {
+          "area" : [ 31, 41, 69, 70 ]
+        },
+        "username-textfield" : {
+          "area" : [ 31, 240, 374, 33 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
